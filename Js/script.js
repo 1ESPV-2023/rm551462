@@ -66,3 +66,13 @@ function mudaBanner1() {
 }
 
 mudaBanner1();
+
+function acender() {
+    const imgLampada = document.querySelector(".conteudo img");
+    const btn = document.querySelector(".botao");
+
+    if(btn.textContent == "LIGAR"){
+    imgLampada.scr = "../img/pic_bulbon.gif"
+
+    }
+}
